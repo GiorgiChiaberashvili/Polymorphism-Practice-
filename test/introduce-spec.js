@@ -22,10 +22,10 @@ describe("Person class", () => {
 describe("Student class", () => {
 
   describe("Student instance method introduce", () => {
-      it("should call the unique introduce method for Student", () => {
-        let student1 = new Student("billy", "johnson", "software-development", 3.2);
+    it("should call the unique introduce method for Student", () => {
+      let student1 = new Student("billy", "johnson", "software-development", 3.2);
 
-        expect(student1.introduce()).to.equal('Hello. I am billy johnson, and I study software-development.')
+      expect(student1.introduce()).to.equal('Hello. I am billy johnson, and I study software-development.')
     });
   });
 });
@@ -33,10 +33,10 @@ describe("Student class", () => {
 describe("Teacher class", () => {
 
   describe("Teacher instance method introduce", () => {
-      it("should call the unique introduce method for Teacher", () => {
-        let teacher1 = new Teacher("susan", "jones", "biology", 5);
+    it("should call the unique introduce method for Teacher", () => {
+      let teacher1 = new Teacher("susan", "jones", "biology", 5);
 
-        expect(teacher1.introduce()).to.equal('Hello. I am susan jones, and I have been teaching biology for 5 years.')
+      expect(teacher1.introduce()).to.equal('Hello. I am susan jones, and I have been teaching biology for 5 years.')
     });
   });
 });
